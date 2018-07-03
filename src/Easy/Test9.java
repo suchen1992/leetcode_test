@@ -1,3 +1,5 @@
+package Easy;
+
 public class Test9 {
     // correct answer
     public static boolean isPalindrome(int x) {

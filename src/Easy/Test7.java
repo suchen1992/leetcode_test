@@ -1,3 +1,5 @@
+package Easy;
+
 public class Test7 {
     public static int reverse(int x) {
 //        int rev = 0;
