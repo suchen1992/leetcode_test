@@ -1,4 +1,5 @@
 package Easy;
+// DP problem
 // correct answer
 public class Test70 {
     public int climbStairs(int n) {
