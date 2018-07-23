@@ -3,9 +3,6 @@ package Medium;
 // correct answer
 
 public class Test96 {
-    static int[] resultMap;
-    static int resultTemp = 0;
-
 //    public int numTrees(int n) {
 //        int [] G = new int[n+1];
 //        G[0] = G[1] = 1;
@@ -18,6 +15,9 @@ public class Test96 {
 //
 //        return G[n];
 //    }
+    int[] resultMap;
+    int resultTemp = 0;
+
     public int numTrees(int n) {
         resultMap = new int[n+1];
         resultMap[1] = 1;
